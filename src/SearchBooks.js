@@ -83,7 +83,7 @@ class SearchBooks extends Component {
                     <div className='search-books-input-wrapper'>
                         <input type='text' placeholder='Search by title or author'
                             value= {this.state.query}
-                            onChange= {(event) => this.updateQuery(event.target.value)}
+                            onChange= {(e) => this.updateQuery(e.target.value)}
                         />
                     </div>
 
